@@ -1,0 +1,39 @@
+{
+    "didShowIssueHelperPopup": true,
+    "currentVersionInfo": {
+        "version": "1.3.2",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "accounts": [
+            {
+                "name": "cannibalmaid#6674",
+                "id": "817617624573149185",
+                "avatar": "https://cdn.discordapp.com/avatars/817617624573149185/9460156924048fad31b5d7290fae8baa.png?size=256",
+                "keybind": [
+                    133,
+                    10
+                ],
+                "token": "JGGUOfcLxQ3KLtiLiCEtBQ==:os24RizYKyfji1EIgzAdDgmuvkRB3SyaLctkzIrTA56XoWl6sDxNKA+9mD/cvLr6cXjo46cqC4VynwDEnAoIDA=="
+            },
+            {
+                "name": "cannibalmaid#6032",
+                "id": "184449685178679297",
+                "avatar": "https://cdn.discordapp.com/avatars/184449685178679297/6e991b90310abf87ef0cf92059f488aa.png?size=256",
+                "keybind": [
+                    133,
+                    11
+                ],
+                "token": "wKhe4AelAtUka3NZFNY82g==:pDR2iFaGtGmimWTw/3o/H9O8HmA/5DtH7HONI11uS9XpctfMIXTBWj0rV47zOXgHWW8NmAN6Yht8GUgp1a38ZQ=="
+            }
+        ],
+        "encrypted": false,
+        "encTest": "test",
+        "pluginsToRestart": [
+            "AccountDetailsPlus",
+            "AutoStartRichPresence"
+        ],
+        "encryptionVersion": 2,
+        "salt": "gEy6ZA31CtIaIEPP+3WNWUq/wZ8nlmUFM64oi28RGiw="
+    }
+}

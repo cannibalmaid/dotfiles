@@ -22,8 +22,10 @@ bspc config gapless_monocle      false
 bspc config border_radius 18
 bspc config focus_follows_pointer true
  
-bspc rule -a discord desktop='^4'
+bspc rule -a discord desktop='^9'
 bspc rule -a Org.gnome.Nautilus state=floating follow=on focus=on
+bspc rule -a Gthumb state=floating follow=on focus=on
+bspc rule -a mpv state=floating follow=on focus=on
 
 wmname LG3
 
@@ -31,6 +33,4 @@ wmname LG3
 ~/.bin/spotify/launchlistener.sh &
 ~/.bin/floating.sh &
 
-~/.config/polybar/material/launch.sh &
-
-discord &
+~/.config/polybar/docky/launch.sh &

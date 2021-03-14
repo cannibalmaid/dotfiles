@@ -6,15 +6,17 @@
 alt + Return
 	kitty
 
+alt + shift + Return
+	~/.bin/bspwm/launch_floating.sh kitty
 # program launcher
 alt + @space
-	~/.config/polybar/material/scripts/launcher.sh
+	~/.config/polybar/scripts/launcher.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 alt + Print
-	scrot '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && notify-send "Screenshot Saved" "Senpai, you looked purfect in this picture!" -i $f' 
+	flameshot screen -c && notify-send "Screenshot Saved" "Senpia, you looked grate in this picture." 
 alt + shift + P
 	(tmp="/tmp/$(date +%s).png"; maim -i $(xdotool getactivewindow) $tmp && xclip -selection clipboard -t image/png -i $tmp && notify-send "Window Screenshot Saved" "Need a snack?" -i $tmp)
 

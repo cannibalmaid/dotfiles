@@ -7,7 +7,7 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH:$HOME/.bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/cannibalmaid/.oh-my-zsh"

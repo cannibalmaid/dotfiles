@@ -27,10 +27,10 @@ bspc rule -a Org.gnome.Nautilus state=floating follow=on focus=on
 bspc rule -a Gthumb state=floating follow=on focus=on
 bspc rule -a mpv state=floating follow=on focus=on
 
-wmname LG3
+#wmname LG3
 
 ~/.bin/wallpaper/change_wallpaper.sh &
 ~/.bin/spotify/launchlistener.sh &
 ~/.bin/floating.sh &
 
-~/.config/polybar/docky/launch.sh &
+~/.config/polybar/launch.sh &
